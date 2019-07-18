@@ -1,0 +1,7 @@
+query($start: Int, $limit: Int) {
+	notifications(start: $start, limit: $limit, sort: "updatedAt|DESC") {
+		titre
+		contenu
+		updatedAt
+	}
+}

@@ -1,0 +1,15 @@
+{
+  "appId": "com.jeunes.ci",
+  "appName": "jeunes",
+  "bundledWebRuntime": false,
+  "npmClient": "npm",
+  "webDir": "dist",
+  "server":{
+    "allowNavigation": [
+      "*.cert6.services",
+      "192.0.2.1"
+    ]
+
+  },
+  "linuxAndroidStudioPath":"/home/cert9/android-studio/bin/studio.sh"
+}

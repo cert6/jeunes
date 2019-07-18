@@ -1,0 +1,23 @@
+mutation($active:Boolean,$id:ID!) {
+ updateJeune(input:{
+  where:{id:$id}
+  data:{active:$active}
+
+})
+  {jeune{
+    id
+    nom
+      email
+      contact
+      password
+      profession
+      pays
+      ville
+      localisation
+      createdAt
+      updatedAt
+      active
+    
+  }}
+}
+

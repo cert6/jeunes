@@ -1,0 +1,136 @@
+body{
+    overflow: scroll;
+    overflow-y: scroll;
+    background: #fafafa;
+    width:12px;
+}
+
+
+
+body,html{
+    text-align:center;
+    width: 100%;
+    height: 100%;
+    overflow: scroll;
+
+   
+}
+
+#app{
+    text-align: center;
+   
+}
+
+p,div,span,br,ul,li,div{
+    font-size:16px;
+}
+
+#app input{
+    width: 100%;
+    font-family: 'krub',sans-serif;
+    font-size:16px;
+  
+}
+#app #input{
+    border-bottom: 1px solid grey;
+    padding:4%;
+    text-align: center;
+}
+
+::-webkit-scrollbar { 
+    scrollbar-width:1px;
+    width: 1px;
+    height: 1px;
+    display: none;
+}
+ 
+::-webkit-scrollbar-track {
+    width:1px;
+    -webkit-box-shadow: inset 0 0 1px rgba(0,0,0,0.3);
+    border-radius: 1px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+ 
+::-webkit-scrollbar-thumb {
+    width:1px;
+    border-radius: 1px;
+    -webkit-box-shadow: inset 0 0 1px rgba(0,0,0,0.5);
+    -webkit-border-radius: 1px;
+    -moz-border-radius: 1px;
+    -ms-border-radius: 1px;
+    -o-border-radius: 1px;
+}
+
+
+
+#btn_ {
+    color: white;
+    width: 100%;
+    font-family: "Raleway";
+    background: #ff4e50;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #f9d423, #ff4e50);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #f9d423, #ff4e50);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+   }
+
+#btn {
+    font-family: "krub";
+    width: 100%;
+    color: white;
+    background: #11998e;
+    font-weight: 600;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #38ef7d, #11998e);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #38ef7d, #11998e);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+#btn__ {
+    font-family: "Raleway";
+    width: 100%;
+    background: white;
+}
+
+#btn_blue{
+    color:white;
+    background: #0575E6;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #021B79, #0575E6);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #021B79, #0575E6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+#inputs:focus{
+    box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0.2), 0 2px 20px 0 rgba(0, 0, 0, 0.10);
+}
+
+#inputs {
+    font-family: 'Courier New', Courier, monospace;
+    height: 49px;
+    border-color: transparent transparent transparent transparent;
+    border-width: 0.6px;
+    background: #f8f7fc;
+    border-style: solid;
+    text-indent: 10px;
+    outline: none;
+    border-radius: 3px;
+   
+  
+    font-weight: 200;
+    text-align: center;
+    width: 100%;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+}
+
+#inputs:hover {
+    transition: 0.4s;
+  
+}

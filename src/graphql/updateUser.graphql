@@ -1,0 +1,23 @@
+mutation($contact:String,$profession:String,$id:ID!) {
+ updateJeune(input:{
+  where:{id:$id}
+  data:{contact:$contact,profession:$profession}
+
+})
+  {jeune{
+    id
+    nom
+      email
+      contact
+      password
+      profession
+      pays
+      ville
+      localisation
+      createdAt
+      updatedAt
+      active
+    
+  }}
+}
+

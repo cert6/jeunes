@@ -1,0 +1,31 @@
+# Write your query or mutation here
+query($categorie: String, $start: Int, $limit: Int, $id: ID) {
+	contenus(
+	sort: "updatedAt|asc"
+	start: $start
+	limit: $limit
+	where: { _id: $id, categorie: $categorie }
+	) {
+		id
+		categorie
+		titre
+		partage
+		updatedAt
+		media {
+			name
+			hash
+			ext
+			mime
+		}
+		infos {
+			titre
+			description
+			media {
+				name
+				hash
+				ext
+				mime
+			}
+		}
+	}
+}
